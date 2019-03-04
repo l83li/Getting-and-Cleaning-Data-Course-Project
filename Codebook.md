@@ -1,6 +1,7 @@
 This code book summarizes the variables used in the tidy_data_set.txt
 ## Identifiers
-* activityLabel
+* activityLabel                                                                                                                         
+  1.WALKING 2. WALKING_UPSTAIRS 3. WALKING_DOWNSTAIRS 4. SITTING 5.STANDING 6. LAYING
 * subjectID
 * activityID
 ## Measurements
@@ -64,11 +65,11 @@ This code book summarizes the variables used in the tidy_data_set.txt
 [58] "fBodyGyro-std()-Z"          
 [59] "fBodyAccMag-mean()"         
 [60] "fBodyAccMag-std()"          
-[61] "fBodyBodyAccJerkMag-mean()" 
+[61] "fBodyBodyAccJerkMag-mean()"                                                                                                       
 [62] "fBodyBodyAccJerkMag-std()"  
 [63] "fBodyBodyGyroMag-mean()"    
 [64] "fBodyBodyGyroMag-std()"     
-[65] "fBodyBodyGyroJerkMag-mean()"
+[65] "fBodyBodyGyroJerkMag-mean()"                                                                                                       
 [66] "fBodyBodyGyroJerkMag-std()"
 
 
