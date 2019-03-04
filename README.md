@@ -1,11 +1,10 @@
 # Getting-and-Cleaning-Data-Course-Project
 This repo contains an R scrips (Run_analysis.R) and documentation files for the final project of JHU Data Science Specialization course "Getting and Cleaning Data".
 
-The doctumentation files inclues: 
-
-Codebook.MD   Explain all the variables and summarizes, and other relevent information.
-tidy_data_set.txt The output of Run_analysis.R
-README.md  Explain how the Run_analysis.R work and other relevent information
+The doctumentation files inclues:                                                                                                         
+Codebook.MD----Explain all the variables and summarizes, and other relevent information                                                   
+tidy_data_set.txt---The output of Run_analysis.R                                                                                           
+README.md----Explain how the Run_analysis.R work and other relevent information
 
 The Run_analysis.R does the followings:
 1. Download the target data package if it does not exist in the working directory
