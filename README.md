@@ -13,4 +13,5 @@ The Run_analysis.R does the followings:
 4. Extracts only the measurements on the mean and standard deviation for each measurement
 5. Uses the activity labels to name the activities in the data set
 6. Group data by activity labels and subject ID, summarize the average of each varibale
+7. Write the data into "tidy_data_set.txt"
 
