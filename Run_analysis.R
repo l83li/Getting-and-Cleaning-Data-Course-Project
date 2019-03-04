@@ -1,9 +1,10 @@
 ## Download the data package and unzip the target file
-if(!file.exists("./data")){dir.create("./data")}
+filename <-"project.zip"
+
+if(!file.exists(filename)){
 download.file("https://d396qusza40orc.cloudfront.net/
 getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip",
-              destfile="./data/project.zip")
-setwd("./data")
+              destfile="./project.zip")}
 unzip(zipfile="project.zip")
 
 
@@ -56,7 +57,7 @@ names(data_mean_std)[4:69]<-features_mean_std
 ## From the data set in step 4, creates a second, 
 ##independent tidy data set with the average of each 
 ##variable for each activity and each subject.
-
+setwd("../../")
 by_data_mean_std<-data_mean_std %>% 
         group_by(activityLabel,subjectID)%>% 
         summarize_all(mean)
